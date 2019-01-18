@@ -1,25 +1,28 @@
 <html>
     <head>
         <link rel="stylesheet" href="css/style.css" />
+        <!-- Link for google fonts as a test with two diferents fonts 
+        <link href="https://fonts.googleapis.com/css?family=Coiny|ZCOOL+KuaiLe" rel="stylesheet">-->
     </head>
     <body>
         <header>
-            <h1>Camilo Agudelo</h1>
-            <ul id="ul_menu" class="main_menu">
-                <li>About me</li>
-                <li>Contact</li>
-                <li>POrtfolio</li>
-            </ul>
+            <div class="main_header">
+                <!-- Test importing a css document into another using Header for test -->
+                <!-- <h1 class="testprueb">Camilo Agudelo</h1> -->
+                <h1 class="main_header_name">Camilo Agudelo</h1>
+                <ul class="main_menu">                    
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>                    
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>                
+            </div>
         </header>
-        <div id="main_content" class="main_content">
-            
-            <setion id="content" class="page_content">
-                <h2>
-                    About Me
-                </h2>              
-                <img id="aboutImage" src="images/CamiloAgudelo.jpg"/>
-                <div  class="divText">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, id unde corrupti eius aut recusandae praesentium necessitatibus suscipit molestiae dolorum doloremque neque minima est consequatur sequi porro ea! Animi, aspernatur?</p>
+        <div id="main_content" class="main_content clearfix">            
+            <setion>
+                <h2 class="header_content">About me</h2>
+                <img id="about_image" src="images/Index/CamiloAgudelo.jpg"/>
+                <div>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, id unde corrupti eius aut recusandae praesentium necessitatibus suscipit molestiae dolorum doloremque neque minima est consequatur sequi porro ea! Animi, aspernatur?</p>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum autem, natus aliquid laborum harum dolorum deleniti. Aut recusandae laborum magnam? Animi temporibus optio, dolore porro veritatis molestias tempore alias eligendi?</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus rem neque voluptate harum aspernatur, itaque inventore totam nostrum! Placeat sunt quia minima quisquam nisi aperiam explicabo voluptatibus rerum nemo vero.</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore veniam fugit necessitatibus quod, maxime tempora nihil eligendi, ex illum excepturi ad a ab harum, eaque suscipit assumenda quibusdam asperiores eveniet?</p>
@@ -27,6 +30,6 @@
                 </div>
             </setion>
         </div>
-        <footer>Copyright©</footer>
+        <footer>Copyright ©</footer>
     </body>
 </html>

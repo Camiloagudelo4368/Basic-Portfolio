@@ -1,0 +1,9 @@
+/* File as a test file to be import for another css file  */
+
+.testprueba{
+    /* Test ggolge fonts */
+    /* font-family: 'Coiny', cursive; */
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size:50px;
+    color:red;
+}
